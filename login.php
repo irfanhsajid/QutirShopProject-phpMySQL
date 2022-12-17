@@ -2,6 +2,8 @@
 @include 'navbar.php';
 
 	session_start();
+
+    
 	
 	$conn = new mysqli('localhost','root','','qutirmahal');
 	
@@ -40,6 +42,15 @@
 				$unsuccessfulmsg = 'Wrong e-mail or Password!';
 			}
 		}
+
+
+        //checking if the user is admin or not 
+        if($_SESSION['users_first_name']='admin'){
+            header('location:index.php');
+        }
+        else{
+            header('location:home.php');
+        }
 	}
 ?>
 
@@ -57,7 +68,7 @@
 <body>
 
     <div class="container">
-        <div class="container" style="margin-top:150px">
+        <div class="container" style="margin-top:100px">
             <h3 class="text-center">Welcome to <span class="text-danger fw-bold">QutirShop! </span>Please, Login Here_
             </h3>
             <p class="text-center text-success">

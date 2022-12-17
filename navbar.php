@@ -1,6 +1,4 @@
 <?php
-
-
 ?>
 
 <!DOCTYPE html>
@@ -17,9 +15,9 @@
 
 <body>
     <header class="mb-5">
-        <nav class=" mb-5 navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <nav style="position: sticky; top:0;" class=" mb-5 navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container py-3">
-                <a class="navbar-brand " href="navbar.php">
+                <a class="navbar-brand " href="home.php">
                     <img style="height: 3rem;" class="img-fluid" src="logo.png" alt="">
 
                 </a>
@@ -31,13 +29,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="navbar.php">Home</a>
+                            <a class="nav-link active" aria-current="page" href="home.php">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.php">Products</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard.php">Dashboard</a>
                         </li>
                     </ul>
                 </div>

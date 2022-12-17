@@ -1,0 +1,74 @@
+.delete-btn {
+  background-image: linear-gradient(to bottom, #ee434b 0%, #8f3f43 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 25px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.update-btn:hover,
+.delete-btn:hover,
+.continue-btn:hover,
+.proceed-btn:hover {
+  background: black;
+  color: hsl(0, 9%, 96%);
+  transition: all 0.7s;
+}
+
+.update-btn {
+  background-color: #13a775;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.continue-btn {
+  background-color: #3759f0;
+  color: #ebe7e7;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 25px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.proceed-btn {
+  background-color: #0e9235;
+  color: #ebe7e7;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 45px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.table-bottom {
+  background-color: yellow;
+  font-weight: bold;
+  margin-bottom: 200px;
+}
+
+.table {
+  text-align: center;
+}
+
+.control-panel {
+  display: flex;
+  padding: 10%;
+  width: 100%;
+}
+
+.control-panel div {
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+}

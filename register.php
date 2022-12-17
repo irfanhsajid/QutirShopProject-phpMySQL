@@ -70,7 +70,7 @@
 
 <body>
     <div class="container mb-5">
-        <div class="container" style="margin-top:150px">
+        <div class="container" style="margin-top:100px">
             <h3 class="text-center"> Complete your <span class="text-danger fw-bold">Registration</span> first to
                 explore_</h3>
         </div>
